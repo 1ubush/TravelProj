@@ -1,0 +1,42 @@
+.planet {
+   cursor: pointer;
+   border-radius: 100%;
+   width: 250px;
+   height: 250px;
+   transition: 0.5s ease;
+   animation: planetAnimation 15s infinite;
+}
+.planet:hover {
+   width: 300px;
+   height: 300px;
+}
+@keyframes planetAnimation {
+   0% {
+      border: 5px solid white;
+   }
+   25% {
+      transform: rotate(1turn);
+      border: 5px solid #89cb24;
+   }
+   75% {
+      transform: rotate(-1turn);
+      border: 5px solid #89cb24;
+   }
+   100% {
+      border: 5px solid white;
+   }
+}
+#bottomScroll {
+   margin: 5px;
+   max-width: 100%;
+   height: 99%;
+   animation: rolling 3s infinite;
+}
+.middle_photo {
+   margin: 50px;
+   width: 200px;
+}
+.myPhoto {
+   width: 250px;
+   height: 250px;
+}
