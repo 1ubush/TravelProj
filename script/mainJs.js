@@ -1,3 +1,5 @@
+"Use string"
+
 //    Выводит иконки HTML/CSS/JS
 
 let scrolling = document.getElementById('bot');
